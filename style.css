@@ -9,7 +9,7 @@
 .main_grid {
     max-width:800px;
     border: 1px solid white;
-    background-color: deepskyblue;
+    background-color: dodgerblue;
     margin: auto;
 }
 
@@ -23,10 +23,34 @@
 
 * form {
     display: inline-block;
-    background-color: deepskyblue;
+    background-color: dodgerblue;
     margin-top: 10px;
     margin-bottom: 40px;
     align-content: center;
+    
+}
+
+form#dropdown {
+    display: inline-block;
+    background-color: dodgerblue;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    align-content: center;
+    width: 171px;
+    color: white;
+    position: relative;
+}
+
+form#dropdown select {
+    display: inline-block;
+    background-color: dodgerblue;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    align-content: center;
+    width: 171px;
+    margin-top: 10px;
+    color: white;
+    border: 1px solid white;
 }
 
 .column1 {
@@ -51,14 +75,15 @@
 }
 
 form [type=text] {
-    background-color: deepskyblue;
+    background-color: dodgerblue;
 }
 
 * textarea {
-    background-color: deepskyblue;
+    background-color: dodgerblue;
     border: 1px solid white;
     display: inline-block;
     width: 171px;
+    height: 100px;
 }
 
 * input {
@@ -78,9 +103,17 @@ form [type=text] {
     font-size: small;
     text-align: left;
 }
+input:hover {
+    border-color:deeppink;
+    color: deeppink;
+}
 
-form#affil {
-    width: 171px;
+form#dropdown:hover select {
+    color:deeppink;
+}
+
+form#bigbox:hover {
+    color: deeppink;
 }
 
 

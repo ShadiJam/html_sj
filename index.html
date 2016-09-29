@@ -21,11 +21,15 @@
                 <p>EMAIL</p>
                 <input name="email" type="text" placeholder="SJSJ@email.com">
             </form>
-            <form id="country" method="post">
+            <form input id="dropdown">
                 <p>COUNTRY</p>
-                <input name="COUNTRY" type="text" placeholder="Choose a Country">
+                <select name="country" input>
+                    <option value="value1">USA</option>
+                    <option value="value2">Norway</option>
+                    <option value="value3">UK</option>
+                </select>
             </form>
-            <form id="bio" method="post">
+            <form id="bigbox" method="post">
                 <p>BIOGRAPHY</p>
                 <textarea name="BIO"></textarea> 
                 <type="text" placeholder="Tell us about you!">
@@ -36,14 +40,18 @@
                 <p>PHONE NUMBER</p>
                 <input name="phone" type="text" placeholder="+123-456-7890">
             </form>
-            <form id="affil" method="post">
+            <form id="bigbox" method="post">
                 <p>AFFILIATIONS</p>
                 <textarea name="affiliations"></textarea> 
                 <type="text" placeholder="Github">
             </form>
-            <form id="job" method="post">
+            <form input id="dropdown">
                 <p>OCCUPATION</p>
-                <input name="Occupation" type="text" placeholder="Choose an Occupation">
+                <select name="job" input>
+                    <option value="value1">Attorney</option>
+                    <option value="value2">Event Manager</option>
+                    <option value="value3">Programmer</option>
+                </select>
             </form>
             <form id="cat" method="post">
                 <p>CAT'S NAME</p>
@@ -55,9 +63,13 @@
             </form>
         </div>
         <div class="column3">
-            <form id="talent" method="post">
-                <p>TYPE OF TALENT</p>
-                <input name="talent" type="text" placeholder="Choose a Talent">
+            <form input id="dropdown">
+                <p>TALENT</p>
+                <select name="skills" input>
+                    <option value="value1">Magic</option>
+                    <option value="value2">Coding</option>
+                    <option value="value3">Parkour</option>
+                </select>
             </form>
             <form id="drink" method="post">
                 <p>FAVORITE DRINK</p>
@@ -71,7 +83,7 @@
                 <p>WEAPON OF CHOICE</p>
                 <input name="weapon" type="text" placeholder="Brains">
             </form>
-            <form id="comment" method="post" textarea rows="5">
+            <form id="bigbox" method="post" textarea rows="5">
                 <p>COMMENTS</p>
                 <textarea name="comment"></textarea> <type="text" placeholder="Questions? Comments?">
             </form>
