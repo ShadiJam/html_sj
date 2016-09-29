@@ -50,7 +50,7 @@ form#dropdown select {
     width: 171px;
     margin-top: 10px;
     color: white;
-    border: 1px solid white;
+    border: 3px solid white;
 }
 
 .column1 {
@@ -80,7 +80,7 @@ form [type=text] {
 
 * textarea {
     background-color: dodgerblue;
-    border: 1px solid white;
+    border: 3px solid white;
     display: inline-block;
     width: 171px;
     height: 100px;
@@ -88,7 +88,7 @@ form [type=text] {
 
 * input {
     display: inline-block;
-    border: 1px solid white;
+    border: 3px solid white;
     width: 100%;
 }
 
@@ -105,15 +105,14 @@ form [type=text] {
 }
 input:hover {
     border-color:deeppink;
-    color: deeppink;
 }
 
 form#dropdown:hover select {
     color:deeppink;
 }
-
-form#bigbox:hover {
-    color: deeppink;
+* :hover {
+    border-color:deeppink;
 }
-
-
+* p:hover {
+    color:deeppink;
+}
